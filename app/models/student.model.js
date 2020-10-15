@@ -13,10 +13,10 @@ module.exports = mongoose => {
           phone: String,
           image: String,
           interest: { type: Array, "default": [] },
-          appointments:  {
-           type: Array, "default":[]
-          }
-        }
+        },
+        appointments:  {
+          type: Array, "default":[]
+         }
       },
       { timestamps: true }
     )
