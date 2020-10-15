@@ -32,7 +32,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to jbdanquah2 test application." });
+  res.json({ message: "Welcome to eduCoach APIs." });
 });
 
 require("./app/routes/student.routes")(app);
