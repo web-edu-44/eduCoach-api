@@ -36,24 +36,24 @@ this have the following end-points:
   
   The end-points for the coach api is similar to that of the student
 
-    // Create a new Student
+    // Create a new Coach
     POST: https://educoach.herokuapp.com/api/coach
   
-    // Retrieve all Students
+    // Retrieve all Coaches
     GET: https://educoach.herokuapp.com/api/coach
   
-    // Retrieve all specific Student by username
+    // Retrieve all specific Coach by username
     GET: https://educoach.herokuapp.com/api/coach/s/:username
   
-    // Retrieve a single Student with id
+    // Retrieve a single Coach with id
     GET: https://educoach.herokuapp.com/api/coach/:id
   
-    // Update a Student with id
+    // Update a Coach with id
     PUT: https://educoach.herokuapp.com/api/coach/:id
   
-    // Delete a Student with id
+    // Delete a Coach with id
     DELETE: https://educoach.herokuapp.com/api/coach/:id
   
-    // Delete all Student
+    // Delete all Coach
     DELETE https://educoach.herokuapp.com/api/coach/
   
