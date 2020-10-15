@@ -10,7 +10,7 @@ module.exports = app => {
     router.get("/", students.findAll);
   
     // Retrieve all Students
-    router.get("/s/:username", students.findAll);
+    router.get("/s/:username", students.findByUsername);
   
     // Retrieve a single Student with id
     router.get("/:id", students.findOne);
